@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="newsletter.css" />
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">  Home  </a></li>
+            <li><a href="SchedaTecnica.html">  Scheda Tecnica  </a></li>
+            <li><a href="Attori.html">  Attori  </a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <form>
+            <label id="storageValue" name="nome">Nome</label>
+            <!--indico Nome come value peché voglio la chiave univoca
+    (per modo di dire in questo caso)
+    rappresentata dal nome dell'utente-->
+            <input  class="nl" type="text" oninput="changeButton(), enableButton()"  id="storageKey" />
+            <button onclick="subscribe(), unsubscribe()" id="subscribeButton" disabled >Subscribe</button> 
+        </form>
+    </main>
+    <footer>
+        <p>Giulia Tuttobene</p>
+    </footer>
+
+    <script src="newsletter.js"></script>
+</body>
+
+</html>

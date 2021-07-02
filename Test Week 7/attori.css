@@ -1,0 +1,30 @@
+﻿ul {
+    margin-left: 510px;
+}
+
+    ul li {
+        float: left;
+        display: block;
+    }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+            color: #f6c848;
+            text-align: center;
+        }
+
+            ul li a:hover {
+                background-color: rgb(246 200 72 / 0.50);
+            }
+
+body {
+    font-family: fantasy;
+}
+
+footer p {
+    color: #f6c848;
+    text-align: center;
+    margin-top: 50px;
+}

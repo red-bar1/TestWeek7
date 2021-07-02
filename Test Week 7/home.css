@@ -1,0 +1,54 @@
+﻿header {
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #f6c848;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+header h3{
+    font-size: 25px;
+    margin-top:5px;
+}
+
+body {
+    background-image: url("https://www.meteoweek.com/wp-content/uploads/2020/04/il-signore-anelli-meteoweek-compressed.jpg");
+    background-size: cover;
+}
+
+ul{
+    margin-left:480px;
+
+}
+
+ul li {
+    float: left;
+    display: block;
+}
+
+ul li a {
+    display:block;
+    text-decoration: none;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        color: #f6c848;
+        text-align:center;
+}
+
+    ul li a:hover {
+        background-color: rgb(246 200 72 / 0.50);
+    }
+
+body > p{
+    margin-top: 130px;
+    align-content: center;
+}
+
+footer p {
+    color: #f6c848;
+    text-align: center;
+    margin-top: 50px;
+}
